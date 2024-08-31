@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <h1>Stone paper scissor</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="rock.png" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="paper.png" />
+      </div>
+      <div class="choice" id="scissor">
+        <img src="scissors.png" />
+      </div>
+    </div>
+
+    <div class="scoreboard">
+      <div class="score">
+        <p id="userscore">0</p>
+        <p>User</p>
+      </div>
+      <div class="score">
+        <p id="compscore">0</p>
+        <p>Comp</p>
+      </div>
+    </div>
+    <div class="msgcontainer">
+      <p id="msg">Play you move</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
